@@ -4,30 +4,35 @@ def fact(n)
   # This will find the products of all digits from 1 to n
   # a stands for accumulated value so far
   # e stands for the next value of the upto
-  1.upto(n).reduce { |a, e| a * e }
+  return 1 if n == 0
+  1.upto(n).reduce(&:*)
 end
 
 def nth_lucas(n)
   a, b = 2, 1
+  yield a if block_given?
 
   # Again, we use the upto method to simulate a for cycle
   # going from 2 to n
   # Since we do not need the block variable, we do not write |i|
+
   2.upto(n) do
     a, b = b, a + b
+    yield a if block_given?
   end
-
   a
 end
 
 def first_lucas(n)
   # Not the best solution,
   # Because we are going to recalculate every nth lucas
-  1.upto(n).map { |index| nth_lucas index }
+  array = []
+  nth_lucas(n) { |lucas| array << lucas }
+  array
 end
 
 def to_digits(n)
-  n.to_s.chars.map { |d| d.to_i }
+  n.to_s.chars.map(&:to_i)
 end
 
 def count_digits(n)
@@ -35,13 +40,13 @@ def count_digits(n)
 end
 
 def sum_digits(n)
-  to_digits(n).reduce { |a, e| a + e }
+  to_digits(n).reduce(&:+)
 end
 
 def factorial_digits(n)
   to_digits(n)
-    .map { |d| factorial d }
-    .reduce { |a, e| a + e }
+    .map { |d| fact d }
+    .reduce(&:+)
 end
 
 def first_fibs(n)
@@ -77,21 +82,11 @@ def next_hack(n)
 end
 
 def count_vowels(str)
-  vowels = 'aeiouy'.chars
-
-  str.downcase
-     .chars
-     .filter { |ch| vowels.include? ch }
-     .length
+  str.downcase.scan(/[aeiouy]/).count
 end
 
 def count_consonants(str)
-  consonants = 'bcdfghjklmnpqrstvwxz'.chars
-
-  str.downcase
-     .chars
-     .filter { |ch| consonants.include? ch }
-     .length
+  str.downcase.scan(/[bcdfghjklmnpqrstvwxz]/).count
 end
 
 def palindrome?(object)
@@ -113,15 +108,30 @@ def largest_palindrome(n)
 end
 
 def prime?(n)
-  # Waiting for PR
+  return false if n < 2
+  2.upto(n**0.5).none? { |i| n % i == 0 }
 end
 
 def list_first_primes(n)
-  # Waiting for PR
+  array = []
+  index = 2
+  until array.length == n
+    array.push(index) if prime?(index)
+    index += 1
+  end
+  array
 end
 
 def sieve(n)
-  # Waiting for PR
+  array = [2]
+  index = 3
+  until array.length == n
+    has_divisor = true
+    array.each { |pr| has_divisor = false if index % pr == 0 }
+    array << index if has_divisor
+    index += 1
+  end
+  array
 end
 
 def char_is_positive_digit?(n)
