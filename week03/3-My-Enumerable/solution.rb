@@ -1,70 +1,201 @@
 # Implementation of our own Enumerable class
+def some_method
+  puts 'sometext'
+end
+
+# some doc comment
 module MyEnumerable
   def map
-    # Your code goes here
+    answer = []
+    each do |x|
+      answer << yield(x)
+    end
+    self.class.new(*answer)
   end
 
   def filter
-    # Your code goes here
+    answer = []
+    each do |x|
+      answer << x if yield x
+    end
+    self.class.new(*answer)
   end
 
   def reject
-    # Your code goes here
+    answer = []
+    each do |x|
+      answer << x unless yield x
+    end
+    self.class.new(*answer)
   end
 
-  def reduce(initial = nil)
-    # Your code goes here
+  def first
+    found = nil
+    each do |x|
+      found = x
+      break
+    end
+    found
+  end
+
+  def reduce(initial = nil, &block)
+    flag = false
+    if initial.nil?
+      flag = true
+      initial = first
+    end
+
+    each do |x|
+      initial = block.call(initial, x)
+    end
+    initial
   end
 
   def any?
-    # Your code goes here
+    any = false
+    each do |x|
+      if yield x
+        any = true
+        break
+      end
+    end
+    any
   end
 
   def all?
-    # Your code goes here
+    all = true
+    each do |x|
+      unless yield x
+        all = false
+        break
+      end
+    end
+    all
   end
 
   def include?(element)
-    # Your code goes here
+    each do |x|
+      return true if x == element
+    end
+    false
   end
 
   def count(element = nil)
-    # Your code goes here
+    count = 0
+    if element.nil?
+      each { count += 1 }
+    else
+      each { |x| count += 1 if x == element }
+    end
+
+    count
   end
 
   def size
-    # Your code goes here
+    size = 0
+    each { size += 1 }
+    size
   end
 
   def min
-    # Your code goes here.
+    reduce { |min, x| min = min < x ? min : x }
   end
 
   def min_by
-    # Your code goes here.
+    min = first
+    min_yield = yield min
+    each do |x|
+      if min_yield > (yield x)
+        min_yield = yield x
+        min = x
+      end
+    end
+    min
   end
 
   def max
-    # Your code goes here.
+    reduce { |max, x| max = max > x ? max : x }
   end
 
   def max_by
-    # Your code goes here.
+    max = first
+    max_yield = yield max
+    each do |x|
+      if max_yield < (yield x)
+        max_yield = yield x
+        max = x
+      end
+    end
+    max
   end
 
   def take(n)
-    # Your code goes here.
+    n = size if n > size
+    res = []
+    index = 0
+    each do |x|
+      break if index == n
+      res << x
+      index += 1
+    end
+    self.class.new(*res)
   end
 
   def take_while
-    # Your code goes here.
+    res = []
+    each do |x|
+      if yield x
+        res << x
+      else
+        break
+      end
+    end
+    self.class.new(*res)
   end
 
   def drop(n)
-    # Your code goes here.
+    res = []
+    index = 0
+    each do |x|
+      res << x if n < index + 1
+      index += 1
+    end
+    self.class.new(*res)
   end
 
   def drop_while
-    # Your code goes here.
+    need_to_drop = 0
+    each do |x|
+      if yield x
+        need_to_drop += 1
+      else
+        break
+      end
+    end
+    drop(need_to_drop)
   end
 end
+
+# test class for MyEnumerable
+class Collection
+  include MyEnumerable
+
+  def initialize(*data)
+    @data = data
+  end
+
+  def each(&block)
+    @data.each(&block)
+  end
+
+  def ==(otherCollection)
+    @data == otherCollection.data
+  end
+
+  def get(index)
+    return @data[index]
+  end
+end
+
+collection = Collection.new(*[2, 4, 6, 3])
+p collection.drop_while { |x| x.odd? }
