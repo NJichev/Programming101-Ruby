@@ -6,6 +6,7 @@ end
 # some doc comment
 module MyEnumerable
   def map
+    return to_enum(:map) unless block_given?
     answer = []
     each do |x|
       answer << yield(x)
@@ -18,7 +19,7 @@ module MyEnumerable
     each do |x|
       answer << x if yield x
     end
-    self.class.new(*answer)
+    answer
   end
 
   def reject
@@ -38,15 +39,12 @@ module MyEnumerable
     found
   end
 
-  def reduce(initial = nil, &block)
-    flag = false
-    if initial.nil?
-      flag = true
-      initial = first
-    end
-
+  def reduce(initial = nil, operator = nil, &block)
+    initial = self[0] if initial.nil?
+    # [1, 2, 3].reduce(0) { |init, x| init = x + x**2 }
     each do |x|
-      initial = block.call(initial, x)
+      # initial = block.call(initial, x)
+      initial = yield(initial, x)
     end
     initial
   end
@@ -198,4 +196,5 @@ class Collection
 end
 
 collection = Collection.new(*[2, 4, 6, 3])
-p collection.drop_while { |x| x.odd? }
+enum = collection.map
+p enum
