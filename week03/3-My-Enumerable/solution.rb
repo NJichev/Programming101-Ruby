@@ -6,6 +6,7 @@ end
 # some doc comment
 module MyEnumerable
   def map
+<<<<<<< HEAD
     return to_enum(:map) unless block_given?
     answer = []
     each do |x|
@@ -69,6 +70,72 @@ module MyEnumerable
       end
     end
     all
+=======
+    Array.new.tap do |arr|
+      each do |element|
+        value = yield element
+        arr << value
+      end
+    end
+  end
+
+  def filter
+    Array.new.tap do |arr|
+      each do |element|
+        arr << element if (yield element)
+      end
+    end
+  end
+
+  def first
+    element = nil
+
+    each do |x|
+      element = x
+      break
+    end
+
+    element
+  end
+
+  def reduce(initial = nil)
+    skip_first = false
+
+    if initial.nil?
+      initial = first
+      skip_first = true
+    end
+
+    each do |x|
+      if skip_first
+        skip_first = false
+        next
+      end
+      initial = yield initial, x
+    end
+
+    initial
+  end
+
+  def negate_block(&block)
+    Proc.new { |x| !block.call(x) }
+  end
+
+  def reject(&block)
+    filter(negate_block(&block))
+  end
+
+  def size
+    map { |x| 1 }.reduce(0) { |acc, x| acc + x }
+  end
+
+  def any?(&block)
+    filter(&block).size > 0
+  end
+
+  def all?(&block)
+    filter(&block).size == size
+>>>>>>> 11f01ef5e376cb5502b3f46c9e50cf82fa76c710
   end
 
   def include?(element)
@@ -79,6 +146,7 @@ module MyEnumerable
   end
 
   def count(element = nil)
+<<<<<<< HEAD
     count = 0
     if element.nil?
       each { count += 1 }
@@ -93,7 +161,15 @@ module MyEnumerable
     size = 0
     each { size += 1 }
     size
+=======
+    if element.nil?
+      return size
+    end
+
+    filter { |x| x == element }.size
+>>>>>>> 11f01ef5e376cb5502b3f46c9e50cf82fa76c710
   end
+
 
   def min
     reduce { |min, x| min = min < x ? min : x }
@@ -195,6 +271,29 @@ class Collection
   end
 end
 
+<<<<<<< HEAD
 collection = Collection.new(*[2, 4, 6, 3])
 enum = collection.map
 p enum
+=======
+class Collection
+  include MyEnumerable
+
+  def initialize(*data)
+    @data = data
+  end
+
+  def each(&block)
+    @data.each(&block)
+  end
+
+  def ==(otherCollection)
+    @data == otherCollection.data
+  end
+
+  def get(index)
+    return @data[index]
+  end
+end
+
+>>>>>>> 11f01ef5e376cb5502b3f46c9e50cf82fa76c710
