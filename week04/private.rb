@@ -1,10 +1,13 @@
+# Test private class
 class Panda
   private
+
   def who_can_call_me
-    puts "Called a private method"
+    puts 'Called a private method'
   end
 
   public
+
   def call1
     who_can_call_me
   end

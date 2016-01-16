@@ -1,0 +1,289 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
++	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/position.rb	/^  def +(other)$/;"	f	class:Position
++	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def +(other)$/;"	f	class:Monom
+<<	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def <<(monom)$/;"	f	class:Polynomial
+==	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def ==(otherCollection)$/;"	f	class:Collection
+==	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^    def ==(otherCollection)$/;"	f	class:SolutionTest.Collection
+==	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def ==(other)$/;"	f	class:Monom
+==	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def ==(other)$/;"	f	class:Polynomial
+Array	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array.rb	/^class Array$/;"	c
+ArrayTest	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array_test.rb	/^class ArrayTest < Minitest::Test$/;"	c
+Board	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^  class Board$/;"	c	class:GameOfLife
+Cart	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^class Cart$/;"	c
+Collection	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^class Collection$/;"	c
+Collection	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  class Collection$/;"	c	class:SolutionTest
+Collection	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/collection.rb	/^class Collection$/;"	c
+Function	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^class Function$/;"	c
+GameOfLife	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^module GameOfLife$/;"	m
+Hash	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^class Hash$/;"	c
+Hash	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^class Hash$/;"	c	class:Hash.except
+Hash	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/symbol.rb	/^class Hash$/;"	c
+InfinitePlane	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/1-Points/plane.rb	/^class InfinitePlane$/;"	c
+Inventory	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^class Inventory$/;"	c
+Monom	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^class Monom$/;"	c
+MonomParser	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  class MonomParser$/;"	c	class:Monom
+MonomTest	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^class MonomTest < Minitest::Test$/;"	c
+MyEnumerable	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^module MyEnumerable$/;"	m
+Object	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^class Object$/;"	c	class:Hash.except
+Panda	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/private.rb	/^class Panda$/;"	c
+Panda	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/protected.rb	/^class Panda$/;"	c
+Person	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/classes.rb	/^class Person$/;"	c
+Polynomial	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^class Polynomial$/;"	c
+Position	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/position.rb	/^class Position$/;"	c
+Problem	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^class Problem$/;"	c
+ShoppingCartTest	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart_test.rb	/^class ShoppingCartTest < Minitest::Test$/;"	c
+SolutionTest	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution_test.rb	/^class SolutionTest < Minitest::Test$/;"	c
+SolutionTest	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^class SolutionTest < Minitest::Test$/;"	c
+SolutionTest	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-Game-Of-Life/game_of_life_test.rb	/^class SolutionTest < Minitest::Test$/;"	c
+Symbol	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/symbol.rb	/^class Symbol$/;"	c
+Symbol	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/to_proc.rb	/^class Symbol$/;"	c
+TestPolynomial	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^class TestPolynomial < Minitest::Test$/;"	c
+Testerino	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/test_tags.rb	/^class Testerino < Polynom$/;"	c
+WeekFolder	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^class WeekFolder$/;"	c
+Weeks	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^class Weeks$/;"	c
+[]	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def [](x, y)$/;"	f	class:GameOfLife.Board
+add	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^  def add(item, quantity = 1)$/;"	f	class:Cart
+age	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/classes.rb	/^  def age$/;"	f	class:Person
+age=	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/classes.rb	/^  def age=(age)$/;"	f	class:Person
+all?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def all?$/;"	f	class:MyEnumerable
+all?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def all?(&block)$/;"	f	class:MyEnumerable
+anagrams?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def anagrams?(a, b)$/;"	f
+anagrams?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def anagrams?(a, b)$/;"	f	class:chars
+any?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def any?$/;"	f	class:MyEnumerable
+any?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def any?(&block)$/;"	f	class:MyEnumerable
+balanced?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def balanced?(n)$/;"	f
+balanced?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def balanced?(n)$/;"	f	class:chars.sum_digits
+call1	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/private.rb	/^  def call1$/;"	f	class:Panda
+call1	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/protected.rb	/^  def call1$/;"	f	class:Panda
+call2	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/private.rb	/^  def call2$/;"	f	class:Panda
+call2	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/protected.rb	/^  def call2$/;"	f	class:Panda
+can_add?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def can_add?(other)$/;"	f	class:Monom
+char_is_positive_digit?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def char_is_positive_digit?(n)$/;"	f
+chars	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def chars(str)$/;"	f
+compact_values	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def compact_values$/;"	f	class:Hash.except.Hash
+compact_values	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def compact_values$/;"	f	class:Hash.except.Hash.defaults!
+compact_values!	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def compact_values!$/;"	f	class:Hash.except.Hash
+constant	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def self.constant(x)$/;"	F	class:Monom
+constant?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def constant?$/;"	f	class:Monom
+count	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def count(element = nil)$/;"	f	class:MyEnumerable
+count	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def count$/;"	f	class:GameOfLife.Board
+count_consonants	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def count_consonants(str)$/;"	f
+count_digits	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def count_digits(n)$/;"	f
+count_vowels	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def count_vowels(str)$/;"	f
+defaults	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def defaults$/;"	f	class:Hash.except.Hash.defaults!
+defaults	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def defaults(hash)$/;"	f	class:Hash.except.Hash
+defaults!	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def defaults!(hash)$/;"	f	class:Hash.except.Hash
+derivate	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def derivate$/;"	f	class:Function
+derivate	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def derivate$/;"	f	class:Monom
+derivate	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def derivate$/;"	f	class:Polynomial
+digits_to_number	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def digits_to_number(digits)$/;"	f	class:chars.sum_digits
+digits_to_number	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/2-List-and-Hashes/solutions.rb	/^def digits_to_number(digits)$/;"	f
+drop	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def drop(n)$/;"	f	class:MyEnumerable
+drop_while	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def drop_while$/;"	f	class:MyEnumerable
+each	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def each(&block)$/;"	f	class:Collection
+each	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^    def each(&block)$/;"	f	class:SolutionTest.Collection
+each	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/block_magic.rb	/^def each(data)$/;"	f
+each	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/collection.rb	/^  def each$/;"	f	class:Collection
+each	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def each(&block)$/;"	f	class:GameOfLife.Board
+each2	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/block_magic.rb	/^def each2(data, &block)$/;"	f
+equal_power?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def equal_power?(other)$/;"	f	class:Monom
+equal_var?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def equal_var?(other)$/;"	f	class:Monom
+example_reading_arguments	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/hello.rb	/^def example_reading_arguments$/;"	f	class:example_with_numbers
+example_with_numbers	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/hello.rb	/^def example_with_numbers$/;"	f
+except	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def except(*keys)$/;"	f	class:Hash
+except	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def except(*keys)$/;"	f	class:Hash.except.Hash.defaults!
+except!	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def except!(*keys)$/;"	f	class:Hash.except.Hash
+except2	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def except2(*keys)$/;"	f	class:Hash.except.Hash.defaults!
+fact	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def fact(n)$/;"	f
+fact	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def fact(n)$/;"	f
+factorial_digits	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def factorial_digits(n)$/;"	f
+fib_number	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def fib_number(n)$/;"	f
+filter	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def filter$/;"	f	class:MyEnumerable
+first	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def first$/;"	f	class:MyEnumerable
+first_fibs	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def first_fibs(n)$/;"	f
+first_lucas	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def first_lucas(n)$/;"	f
+fx	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def fx$/;"	f	class:Function
+fxprim	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def fxprim$/;"	f	class:Function
+gather_problems	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def gather_problems$/;"	f	class:WeekFolder
+get	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def get(index)$/;"	f	class:Collection
+get	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^    def get(index)$/;"	f	class:SolutionTest.Collection
+greyscale_histogram	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def greyscale_histogram(image)$/;"	f	class:chars.sum_digits
+hack?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def hack?(n)$/;"	f
+hack?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def hack?(n)$/;"	f	class:chars
+hello_ruby	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/hello.rb	/^def hello_ruby$/;"	f
+include?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def include?(element)$/;"	f	class:MyEnumerable
+index_by	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array.rb	/^  def index_by$/;"	f	class:Array
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def initialize(name)$/;"	f	class:WeekFolder
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def initialize(path)$/;"	f	class:Problem
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/1-Points/plane.rb	/^  def initialize(x, y)$/;"	f	class:InfinitePlane
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/classes.rb	/^  def initialize(name, age)$/;"	f	class:Person
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/position.rb	/^  def initialize(x, y)$/;"	f	class:Position
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def initialize(*data)$/;"	f	class:Collection
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^    def initialize(*data)$/;"	f	class:SolutionTest.Collection
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/collection.rb	/^  def initialize(*data)$/;"	f	class:Collection
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def initialize(*cells)$/;"	f	class:GameOfLife.Board
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^    def initialize(input)$/;"	f	class:Monom.MonomParser
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def initialize(*monoms)$/;"	f	class:Polynomial
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def initialize(coeff, var, power)$/;"	f	class:Monom
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def initialize(input)$/;"	f	class:Function
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^  def initialize$/;"	f	class:Inventory
+initialize	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^  def initialize(inventory)$/;"	f	class:Cart
+inspect	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def inspect$/;"	f	class:WeekFolder
+largest_palindrome	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def largest_palindrome(n)$/;"	f
+length	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^  def length$/;"	f	class:Inventory
+list_first_primes	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def list_first_primes(n)$/;"	f
+list_weeks	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def self.list_weeks$/;"	F	class:Weeks
+main	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/start.rb	/^def main$/;"	f
+map	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def map$/;"	f	class:MyEnumerable
+map	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/block_magic.rb	/^def map(items)$/;"	f
+max	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def max$/;"	f	class:MyEnumerable
+max_by	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def max_by$/;"	f	class:MyEnumerable
+max_scalar_product	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/2-List-and-Hashes/solutions.rb	/^def max_scalar_product(v1, v2)$/;"	f
+min	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def min$/;"	f	class:MyEnumerable
+min_by	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def min_by$/;"	f	class:MyEnumerable
+move_to_directions	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/1-Points/plane.rb	/^  def move_to_directions(directions)$/;"	f	class:InfinitePlane
+name	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/classes.rb	/^  def name$/;"	f	class:Person
+name=	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/classes.rb	/^  def name=(name)$/;"	f	class:Person
+negate_block	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def negate_block(&block)$/;"	f	class:MyEnumerable
+neighbors	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def neighbors(x, y)$/;"	f	class:GameOfLife.Board
+neighbors_num	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def neighbors_num(x, y)$/;"	f	class:GameOfLife.Board
+new_cart	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^  def new_cart$/;"	f	class:Inventory
+next_generation	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def next_generation$/;"	f	class:GameOfLife.Board
+next_hack	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def next_hack(n)$/;"	f
+next_hack	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def next_hack(n)$/;"	f	class:chars
+nth_lucas	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def nth_lucas(n)$/;"	f
+number_to_digits	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def number_to_digits(n)$/;"	f	class:chars.sum_digits
+number_to_digits	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/2-List-and-Hashes/solutions.rb	/^def number_to_digits(n)$/;"	f
+number_to_digits_r	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def number_to_digits_r(n)$/;"	f	class:chars.sum_digits
+occurences_count	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array.rb	/^  def occurences_count$/;"	f	class:Array
+p_score	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def p_score(n)$/;"	f
+palindrome?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def palindrome?(object)$/;"	f
+parse	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def parse(input)$/;"	f	class:Function
+parse	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def self.parse(input)$/;"	F	class:Monom
+parse	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def self.parse(input)$/;"	F	class:Polynomial
+pick	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def pick(*keys)$/;"	f	class:Hash
+pick	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def pick(*keys)$/;"	f	class:Hash.except.Hash.defaults!
+pick!	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def pick!(*keys)$/;"	f	class:Hash.except.Hash
+pick2	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def pick2(*keys)$/;"	f	class:Hash.except.Hash.defaults!
+pick3	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def pick3(*keys)$/;"	f	class:Hash.except.Hash
+prime?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def prime?(n)$/;"	f
+print_information	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/classes.rb	/^def print_information(person)$/;"	f
+print_stuff	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/test_tags.rb	/^  def print_stuff$/;"	f	class:Testerino
+reduce	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def reduce(initial = nil)$/;"	f	class:MyEnumerable
+reduce	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def reduce(initial = nil, operator = nil, &block)$/;"	f	class:MyEnumerable
+register	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^  def register(name, cost)$/;"	f	class:Inventory
+reject	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def reject$/;"	f	class:MyEnumerable
+reject	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def reject(&block)$/;"	f	class:MyEnumerable
+ressurect?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def ressurect?(x, y)$/;"	f	class:GameOfLife.Board
+ruby_books	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/hello.rb	/^def ruby_books$/;"	f	class:example_with_numbers
+sieve	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def sieve(n)$/;"	f
+size	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def size$/;"	f	class:MyEnumerable
+solution?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def solution?$/;"	f	class:Problem
+solutions	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def solutions$/;"	f	class:Problem
+some_funct	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/test_tags.rb	/^  def some_funct(parameter)$/;"	f	class:Testerino
+some_method	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^def some_method$/;"	f
+sort_fx	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def sort_fx$/;"	f	class:Function
+subarray_count	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array.rb	/^  def subarray_count(sub_arr)$/;"	f	class:Array
+sum	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/hello.rb	/^def sum(numbers)$/;"	f	class:example_with_numbers
+sum_digits	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def sum_digits(n)$/;"	f
+sum_digits	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def sum_digits(n)$/;"	f	class:chars
+sum_marix	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/2-List-and-Hashes/solutions.rb	/^def sum_marix(m)$/;"	f
+sum_of_numbers_in_string	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def sum_of_numbers_in_string(str)$/;"	f
+survive?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-game-of-life/solution.rb	/^    def survive?(x, y)$/;"	f	class:GameOfLife.Board
+take	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def take(n)$/;"	f	class:MyEnumerable
+take_while	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution.rb	/^  def take_while$/;"	f	class:MyEnumerable
+tap	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution.rb	/^  def tap$/;"	f	class:Hash.except.Object
+test_adding_constants	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_adding_constants$/;"	f	class:MonomTest
+test_adding_monoms_with_equal_var_and_power	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_adding_monoms_with_equal_var_and_power$/;"	f	class:MonomTest
+test_all?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_all?$/;"	f	class:SolutionTest
+test_any?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_any?$/;"	f	class:SolutionTest
+test_cart_total	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart_test.rb	/^  def test_cart_total$/;"	f	class:ShoppingCartTest
+test_compact_values	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution_test.rb	/^  def test_compact_values$/;"	f	class:SolutionTest
+test_count_with_element_nil	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_count_with_element_nil$/;"	f	class:SolutionTest
+test_count_with_non_nil_element	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_count_with_non_nil_element$/;"	f	class:SolutionTest
+test_defaults	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution_test.rb	/^  def test_defaults$/;"	f	class:SolutionTest
+test_derivate_constant	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_derivate_constant$/;"	f	class:MonomTest
+test_derivate_power_equal_to_1	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_derivate_power_equal_to_1$/;"	f	class:MonomTest
+test_drop_in_standard_case	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_drop_in_standard_case$/;"	f	class:SolutionTest
+test_drop_while_with_some_elements_matching	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_drop_while_with_some_elements_matching$/;"	f	class:SolutionTest
+test_drop_with_0	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_drop_with_0$/;"	f	class:SolutionTest
+test_drop_with_no_elements_matching	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_drop_with_no_elements_matching$/;"	f	class:SolutionTest
+test_empty_polynomial_to_a	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_empty_polynomial_to_a$/;"	f	class:TestPolynomial
+test_empty_polynomial_to_s	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_empty_polynomial_to_s$/;"	f	class:TestPolynomial
+test_except	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution_test.rb	/^  def test_except$/;"	f	class:SolutionTest
+test_filter	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_filter$/;"	f	class:SolutionTest
+test_if_monom_is_constant_when_created_with_constant	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_if_monom_is_constant_when_created_with_constant$/;"	f	class:MonomTest
+test_if_monom_is_constant_when_created_with_new	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_if_monom_is_constant_when_created_with_new$/;"	f	class:MonomTest
+test_if_monom_is_constant_when_it_is_not	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_if_monom_is_constant_when_it_is_not$/;"	f	class:MonomTest
+test_include?	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_include?$/;"	f	class:SolutionTest
+test_index_by	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array_test.rb	/^  def test_index_by$/;"	f	class:ArrayTest
+test_map	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_map$/;"	f	class:SolutionTest
+test_max	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_max$/;"	f	class:SolutionTest
+test_max_by	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_max_by$/;"	f	class:SolutionTest
+test_min_by	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_min_by$/;"	f	class:SolutionTest
+test_min_with_numbers	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_min_with_numbers$/;"	f	class:SolutionTest
+test_monom_equal_power_when_powers_are_equal	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_equal_power_when_powers_are_equal$/;"	f	class:MonomTest
+test_monom_equal_power_when_powers_are_not_equal	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_equal_power_when_powers_are_not_equal$/;"	f	class:MonomTest
+test_monom_parse_constant	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_parse_constant$/;"	f	class:MonomTest
+test_monom_parse_constant_with_more_than_1_digit	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_parse_constant_with_more_than_1_digit$/;"	f	class:MonomTest
+test_monom_parse_when_is_only_var	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_parse_when_is_only_var$/;"	f	class:MonomTest
+test_monom_parse_with_all_parts	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_parse_with_all_parts$/;"	f	class:MonomTest
+test_monom_parse_with_more_than_1_digit_coeff_and_power	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_parse_with_more_than_1_digit_coeff_and_power$/;"	f	class:MonomTest
+test_monom_parse_with_power_1	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_parse_with_power_1$/;"	f	class:MonomTest
+test_monom_to_s	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_to_s$/;"	f	class:MonomTest
+test_monom_to_s_when_constant	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_to_s_when_constant$/;"	f	class:MonomTest
+test_monom_to_s_when_constant_and_0	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_to_s_when_constant_and_0$/;"	f	class:MonomTest
+test_monom_to_s_when_power_is_1	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_monom_to_s_when_power_is_1$/;"	f	class:MonomTest
+test_occurences_count	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array_test.rb	/^  def test_occurences_count$/;"	f	class:ArrayTest
+test_pick	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/2-Patch-Hash/solution_test.rb	/^  def test_pick$/;"	f	class:SolutionTest
+test_polynomial_derivative	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_polynomial_derivative$/;"	f	class:TestPolynomial
+test_polynomial_derivative_of_constants	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_polynomial_derivative_of_constants$/;"	f	class:TestPolynomial
+test_polynomial_derivative_when_we_have_0_in_the_derivative	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_polynomial_derivative_when_we_have_0_in_the_derivative$/;"	f	class:TestPolynomial
+test_polynomial_parse_to_equal_a_polynomial	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_polynomial_parse_to_equal_a_polynomial$/;"	f	class:TestPolynomial
+test_polynomial_parse_to_get_the_right_string	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_polynomial_parse_to_get_the_right_string$/;"	f	class:TestPolynomial
+test_polynomial_to_a_with_one_monom	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_polynomial_to_a_with_one_monom$/;"	f	class:TestPolynomial
+test_polynomial_to_s_with_monoms	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_polynomial_to_s_with_monoms$/;"	f	class:TestPolynomial
+test_reduce	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_reduce$/;"	f	class:SolutionTest
+test_register_item_in_inventory	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart_test.rb	/^  def test_register_item_in_inventory$/;"	f	class:ShoppingCartTest
+test_reject	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_reject$/;"	f	class:SolutionTest
+test_size	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_size$/;"	f	class:SolutionTest
+test_standard_derivate	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution_test.rb	/^  def test_standard_derivate$/;"	f	class:MonomTest
+test_subarray_count	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array_test.rb	/^  def test_subarray_count$/;"	f	class:ArrayTest
+test_take_in_standard_case	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_take_in_standard_case$/;"	f	class:SolutionTest
+test_take_while_with_some_elements_matching	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_take_while_with_some_elements_matching$/;"	f	class:SolutionTest
+test_take_with_0	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_take_with_0$/;"	f	class:SolutionTest
+test_take_with_larger_than_size_number	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_take_with_larger_than_size_number$/;"	f	class:SolutionTest
+test_take_with_no_elements_matching	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/3-My-Enumerable/solution_test.rb	/^  def test_take_with_no_elements_matching$/;"	f	class:SolutionTest
+test_the_truth	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/1-Game-Of-Life/game_of_life_test.rb	/^  def test_the_truth$/;"	f	class:SolutionTest
+test_to_hash	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array_test.rb	/^  def test_to_hash$/;"	f	class:ArrayTest
+to_a	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def to_a$/;"	f	class:Polynomial
+to_digits	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def to_digits(n)$/;"	f
+to_hash	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/1-fmi-tribute/patch_array.rb	/^  def to_hash$/;"	f	class:Array
+to_proc	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/symbol.rb	/^  def to_proc$/;"	f	class:Hash
+to_proc	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/symbol.rb	/^  def to_proc$/;"	f	class:Symbol
+to_proc	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/to_proc.rb	/^  def to_proc$/;"	f	class:Symbol
+to_s	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def to_s$/;"	f	class:Problem
+to_s	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/list_problems_and_solutions.rb	/^  def to_s$/;"	f	class:WeekFolder
+to_s	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/1-Points/plane.rb	/^  def to_s$/;"	f	class:InfinitePlane
+to_s	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/position.rb	/^  def to_s$/;"	f	class:Position
+to_s	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def to_s$/;"	f	class:Monom
+to_s	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def to_s$/;"	f	class:Polynomial
+to_str	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^  def to_str(fx)$/;"	f	class:Function
+total	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week05/1-Shopping-Cart/shopping_cart.rb	/^  def total$/;"	f	class:Cart
+transform_value	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week03/block_magic.rb	/^def transform_value(x)$/;"	f
+try_take_coeff	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^    def try_take_coeff$/;"	f	class:Monom.MonomParser
+try_take_power	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^    def try_take_power$/;"	f	class:Monom.MonomParser
+try_take_var	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/2-Polynoms-And-Derivates/solution.rb	/^    def try_take_var$/;"	f	class:Monom.MonomParser
+who_can_call_me	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/private.rb	/^  def who_can_call_me$/;"	f	class:Panda
+who_can_call_me	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week04/protected.rb	/^  def who_can_call_me$/;"	f	class:Panda
+x	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/position.rb	/^  def x$/;"	f	class:Position
+x=	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/position.rb	/^  def x=(value)$/;"	f	class:Position
+y	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/position.rb	/^  def y$/;"	f	class:Position
+y=	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week02/position.rb	/^  def y=(value)$/;"	f	class:Position
+zero_insert	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/good_solutions.rb	/^def zero_insert(n)$/;"	f
+zero_insert	/home/niko/Documents/Ruby/fork-of-programming101-Ruby/Programming101-Ruby/week01/1-Warmup-Problems/procedural_solutions.rb	/^def zero_insert(n)$/;"	f	class:chars.sum_digits

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # patch hash for tasks
 class Hash
   def pick(*keys)
@@ -21,6 +22,8 @@ class Object
   end
 end
 
+=======
+>>>>>>> 7a9ddf6a716592c86e2ff6aceb34fcaed25e9acf
 class Hash
   def pick3(*keys)
     Hash.new.tap do |h|
@@ -78,7 +81,7 @@ class Hash
     end
 =======
   def pick2(*keys)
-    select do |k, v|
+    select do |k, _|
       keys.include? k
     end
   end
@@ -94,9 +97,8 @@ class Hash
   end
 
   def except2(*keys)
-    reject { |k, v| keys.include? k }
+    reject { |k, _| keys.include? k }
   end
-
 
   def except(*keys)
     result = {}
@@ -109,11 +111,15 @@ class Hash
   end
 
   def compact_values
+<<<<<<< HEAD
     select { |key, value| value }
   end
 
   def defaults
 
 >>>>>>> 11f01ef5e376cb5502b3f46c9e50cf82fa76c710
+=======
+    select { |_, value| value }
+>>>>>>> 7a9ddf6a716592c86e2ff6aceb34fcaed25e9acf
   end
 end

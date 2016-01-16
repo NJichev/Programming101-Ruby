@@ -1,0 +1,6 @@
+notification :terminal_notifier
+
+guard 'minitest', test_folders: '.' do
+  watch('carting_shop.rb') { 'carting_shop_test.rb' }
+  watch('carting_shop_test.rb')
+end
