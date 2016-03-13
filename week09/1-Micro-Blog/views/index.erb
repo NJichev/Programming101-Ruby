@@ -1,0 +1,8 @@
+<% @posts.each do |id, post| %> 
+  <% if post %>
+    <h4> Post id: <%= id %> </h4>
+    <h4> Post name: <%= post.name %> </h4>
+    <h4> Post content: <%= post.content %> </h4>
+    <br>
+  <% end %>
+<% end %>
