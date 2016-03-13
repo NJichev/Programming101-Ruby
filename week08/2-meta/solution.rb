@@ -1,4 +1,5 @@
 class Object
+<<<<<<< HEAD
   def singleton_class
     class << self
       self
@@ -28,3 +29,11 @@ p [2, 3, 4, 5].map(&'succ.succ')
 
 
 
+=======
+  def define_singleton_method(name, method = nil, &block)
+  end
+
+end
+>>>>>>> upstream/master
+
+string = "string"

@@ -44,6 +44,7 @@ SolutionTest	week03/2-Patch-Hash/solution_test.rb	/^class SolutionTest < Minites
 SolutionTest	week03/3-My-Enumerable/solution_test.rb	/^class SolutionTest < Minitest::Test$/;"	c
 SolutionTest	week04/1-Game-Of-Life/game_of_life_test.rb	/^class SolutionTest < Minitest::Test$/;"	c
 SolutionTest	week08/2-meta/solution_test.rb	/^class SolutionTest < Minitest::Test$/;"	c
+SolutionTest	week08/3-active-support/solution_test.rb	/^class SolutionTest < Minitest::Test$/;"	c
 String	week08/2-meta/solution.rb	/^class String$/;"	c
 Symbol	week04/symbol.rb	/^class Symbol$/;"	c
 Symbol	week04/to_proc.rb	/^class Symbol$/;"	c
@@ -93,7 +94,7 @@ derivate	week04/2-Polynoms-And-Derivates/solution.rb	/^  def derivate$/;"	f	clas
 derivate	week04/2-Polynoms-And-Derivates/solution.rb	/^  def derivate$/;"	f	class:Monom
 derivate	week04/2-Polynoms-And-Derivates/solution.rb	/^  def derivate$/;"	f	class:Polynomial
 digits_to_number	week01/1-Warmup-Problems/procedural_solutions.rb	/^def digits_to_number(digits)$/;"	f	class:chars.sum_digits
-digits_to_number	week01/2-List-and-Hashes/solutions.rb	/^def digits_to_number(digits)$/;"	f
+digits_to_number	week01/2-List-and-Hashes/solution.rb	/^def digits_to_number(digits)$/;"	f
 drop	week03/3-My-Enumerable/solution.rb	/^  def drop(n)$/;"	f	class:MyEnumerable
 drop_while	week03/3-My-Enumerable/solution.rb	/^  def drop_while$/;"	f	class:MyEnumerable
 each	week03/3-My-Enumerable/solution.rb	/^  def each(&block)$/;"	f	class:Collection
@@ -123,6 +124,7 @@ fxprim	week04/2-Polynoms-And-Derivates/solution.rb	/^  def fxprim$/;"	f	class:Fu
 gather_problems	list_problems_and_solutions.rb	/^  def gather_problems$/;"	f	class:WeekFolder
 get	week03/3-My-Enumerable/solution.rb	/^  def get(index)$/;"	f	class:Collection
 get	week03/3-My-Enumerable/solution_test.rb	/^    def get(index)$/;"	f	class:SolutionTest.Collection
+grayscale_histogram	week01/2-List-and-Hashes/solution.rb	/^def grayscale_histogram(image)$/;"	f
 greyscale_histogram	week01/1-Warmup-Problems/procedural_solutions.rb	/^def greyscale_histogram(image)$/;"	f	class:chars.sum_digits
 group_consecutive	week06/1-Panda-Social-Network/group.rb	/^def group_consecutive(items, n)$/;"	f
 hack?	week01/1-Warmup-Problems/good_solutions.rb	/^def hack?(n)$/;"	f
@@ -154,9 +156,11 @@ list_weeks	list_problems_and_solutions.rb	/^  def self.list_weeks$/;"	F	class:We
 main	week04/2-Polynoms-And-Derivates/start.rb	/^def main$/;"	f
 map	week03/3-My-Enumerable/solution.rb	/^  def map$/;"	f	class:MyEnumerable
 map	week03/block_magic.rb	/^def map(items)$/;"	f
+matrix_bombing_plan	week01/2-List-and-Hashes/solution.rb	/^def matrix_bombing_plan(m)$/;"	f
 max	week03/3-My-Enumerable/solution.rb	/^  def max$/;"	f	class:MyEnumerable
 max_by	week03/3-My-Enumerable/solution.rb	/^  def max_by$/;"	f	class:MyEnumerable
-max_scalar_product	week01/2-List-and-Hashes/solutions.rb	/^def max_scalar_product(v1, v2)$/;"	f
+max_scalar_product	week01/2-List-and-Hashes/solution.rb	/^def max_scalar_product(v1, v2)$/;"	f
+max_span	week01/2-List-and-Hashes/solution.rb	/^def max_span(items)$/;"	f
 min	week03/3-My-Enumerable/solution.rb	/^  def min$/;"	f	class:MyEnumerable
 min_by	week03/3-My-Enumerable/solution.rb	/^  def min_by$/;"	f	class:MyEnumerable
 move_to_directions	week02/1-Points/plane.rb	/^  def move_to_directions(directions)$/;"	f	class:InfinitePlane
@@ -171,7 +175,7 @@ next_hack	week01/1-Warmup-Problems/good_solutions.rb	/^def next_hack(n)$/;"	f
 next_hack	week01/1-Warmup-Problems/procedural_solutions.rb	/^def next_hack(n)$/;"	f	class:chars
 nth_lucas	week01/1-Warmup-Problems/good_solutions.rb	/^def nth_lucas(n)$/;"	f
 number_to_digits	week01/1-Warmup-Problems/procedural_solutions.rb	/^def number_to_digits(n)$/;"	f	class:chars.sum_digits
-number_to_digits	week01/2-List-and-Hashes/solutions.rb	/^def number_to_digits(n)$/;"	f
+number_to_digits	week01/2-List-and-Hashes/solution.rb	/^def number_to_digits(n)$/;"	f
 number_to_digits_r	week01/1-Warmup-Problems/procedural_solutions.rb	/^def number_to_digits_r(n)$/;"	f	class:chars.sum_digits
 occurences_count	week03/1-fmi-tribute/patch_array.rb	/^  def occurences_count$/;"	f	class:Array
 p_score	week01/1-Warmup-Problems/good_solutions.rb	/^def p_score(n)$/;"	f
@@ -207,7 +211,7 @@ subarray_count	week03/1-fmi-tribute/patch_array.rb	/^  def subarray_count(sub_ar
 sum	week01/hello.rb	/^def sum(numbers)$/;"	f	class:example_with_numbers
 sum_digits	week01/1-Warmup-Problems/good_solutions.rb	/^def sum_digits(n)$/;"	f
 sum_digits	week01/1-Warmup-Problems/procedural_solutions.rb	/^def sum_digits(n)$/;"	f	class:chars
-sum_marix	week01/2-List-and-Hashes/solutions.rb	/^def sum_marix(m)$/;"	f
+sum_matrix	week01/2-List-and-Hashes/solution.rb	/^def sum_matrix(m)$/;"	f
 sum_of_numbers_in_string	week01/1-Warmup-Problems/good_solutions.rb	/^def sum_of_numbers_in_string(str)$/;"	f
 survive?	week04/1-game-of-life/solution.rb	/^    def survive?(x, y)$/;"	f	class:GameOfLife.Board
 take	week03/3-My-Enumerable/solution.rb	/^  def take(n)$/;"	f	class:MyEnumerable
@@ -276,6 +280,7 @@ test_take_with_larger_than_size_number	week03/3-My-Enumerable/solution_test.rb	/
 test_take_with_no_elements_matching	week03/3-My-Enumerable/solution_test.rb	/^  def test_take_with_no_elements_matching$/;"	f	class:SolutionTest
 test_the_truth	week04/1-Game-Of-Life/game_of_life_test.rb	/^  def test_the_truth$/;"	f	class:SolutionTest
 test_the_truth	week08/2-meta/solution_test.rb	/^  def test_the_truth$/;"	f	class:SolutionTest
+test_the_truth	week08/3-active-support/solution_test.rb	/^  def test_the_truth$/;"	f	class:SolutionTest
 test_to_hash	week03/1-fmi-tribute/patch_array_test.rb	/^  def test_to_hash$/;"	f	class:ArrayTest
 to_a	week04/2-Polynoms-And-Derivates/solution.rb	/^  def to_a$/;"	f	class:Polynomial
 to_digits	week01/1-Warmup-Problems/good_solutions.rb	/^def to_digits(n)$/;"	f
