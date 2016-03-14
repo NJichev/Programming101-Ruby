@@ -1,15 +1,13 @@
 require 'rubygems'
 require 'sinatra/base'
-require_relative 'helpers/posts'
+require_relative 'models/posts'
 
 class BlogApp < Sinatra::Base
   before do
-    @@posts ||= {}
-    @@id ||= 0
+    @posts ||= Posts.posts
   end
 
   get '/' do
-    @posts = @@posts
     if @posts.empty?
       'Welcome to our blog!'
     else
@@ -24,15 +22,14 @@ class BlogApp < Sinatra::Base
   post '/new/' do
     name = params[:name]
     content = params[:content]
-    post = Post.new(name, content)
-    @@id += 1
-    @@posts[@@id] = post
-    redirect "/#{@@id}"
+    post = Posts::Post.new(name, content)
+    id = Posts.id
+    post.save
+    redirect "/#{id}"
   end
 
   get '/:id' do
-    @post = @@posts[params[:id].to_i]
-    puts @post
+    @post = @posts[params[:id].to_i]
 
     if @post.nil?
       erb :deleted
@@ -42,7 +39,7 @@ class BlogApp < Sinatra::Base
   end
 
   delete '/:id' do
-    @@posts[params[:id].to_i] = nil
+    @posts[params[:id].to_i] = nil
   end
 end
 
