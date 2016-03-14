@@ -1,34 +1,37 @@
-class Posts
+module Posts
   @posts ||= {}
   @id ||= 1
 
-  def self.id
+  extend self
+
+  def id
     @id
   end
 
-  def self.posts
+  # def self.all
+  #   @posts
+  # end
+
+  def all
+    # self.class.posts
     @posts
   end
 
-  def posts
-    self.class.posts
-  end
-
-  def self.<<(post)
+  def <<(post)
     @posts[@id] = post
     @id += 1
   end
+end
 
-  class Post
-    attr_accessor :name, :content
+class Post
+  attr_accessor :name, :content
 
-    def initialize(name, content)
-      @name = name
-      @content = content
-    end
+  def initialize(name, content)
+    @name = name
+    @content = content
+  end
 
-    def save
-      Posts << self
-    end
+  def save
+    Posts << self
   end
 end

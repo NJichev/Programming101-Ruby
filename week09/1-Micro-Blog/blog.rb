@@ -22,7 +22,7 @@ class BlogApp < Sinatra::Base
   post '/new/' do
     name = params[:name]
     content = params[:content]
-    post = Posts::Post.new(name, content)
+    post = Post.new(name, content)
     id = Posts.id
     post.save
     redirect "/#{id}"
