@@ -4,7 +4,7 @@ require_relative 'models/posts'
 
 class BlogApp < Sinatra::Base
   before do
-    @posts ||= Posts.posts
+    @posts ||= Posts.all
   end
 
   get '/' do

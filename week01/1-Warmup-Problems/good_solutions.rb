@@ -82,29 +82,11 @@ def next_hack(n)
 end
 
 def count_vowels(str)
-<<<<<<< HEAD
   str.downcase.scan(/[aeiouy]/).count
 end
 
 def count_consonants(str)
   str.downcase.scan(/[bcdfghjklmnpqrstvwxz]/).count
-=======
-  vowels = 'aeiouy'.chars
-
-  str.downcase
-     .chars
-     .select { |ch| vowels.include? ch }
-     .length
-end
-
-def count_consonants(str)
-  consonants = 'bcdfghjklmnpqrstvwxz'.chars
-
-  str.downcase
-     .chars
-     .select { |ch| consonants.include? ch }
-     .length
->>>>>>> 11f01ef5e376cb5502b3f46c9e50cf82fa76c710
 end
 
 def palindrome?(object)
